@@ -250,7 +250,7 @@ extern "C" {
 ## 3.游戏开始
 游戏开始，GO！<br>
 > * 首先，我们先来创建棋局，initb是东道主，inita是挑战者,创建棋局需要东道主的授权（–permission initb@active）<br>
-`cleos push action tic.tac.toe create '["challenger":"inita", "host":"initb"]' -permission initb@active`
+`cleos push action tic.tac.toe create '{"challenger":"inita", "host":"initb"}' --permission initb@active`
 
 ![](picture/create_game.png)
 

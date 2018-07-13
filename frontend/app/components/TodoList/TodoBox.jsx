@@ -8,8 +8,11 @@ const EOS_CONFIG = {
   contractName: "todo.user", // Contract name
   contractSender: "todo.user", // User executing the contract (should be paired with private key)
   clientConfig: {
-    keyProvider: '5JEnXfs3bKqzcUSYzP4wyG7ztiBsrWzNab12v6sa5ftQWuARhnE', // Your private key
-    httpEndpoint: 'http://127.0.0.1:8888' // EOS http endpoint
+    chainId: 'a4fe43c897279a677025624555f3835b949f995f87923c97f0392dcff835bfd0',
+    keyProvider: '5KAr88qPT4RMbR8FC4S2zfkjhPRnZktpJGHtTZJuFNeAbFnmNuv', // Your private key
+    httpEndpoint: 'http://127.0.0.1:8888', // EOS http endpoint
+    broadcast: true,
+    sign: true
   }
 }
 

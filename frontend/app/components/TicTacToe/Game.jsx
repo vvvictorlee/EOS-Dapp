@@ -10,8 +10,11 @@ const EOS_CONFIG = {
     contractName: "tic.tac.toe", // Contract name
     contractSender: "tic.tac.toe", // User executing the contract (should be paired with private key)
     clientConfig: {
-      keyProvider: '5KJaZrmBkBKue3XmCN6gkQM7LJhVEALsF7BjtF8L8YmVZBtRtQW', // Your private key
-      httpEndpoint: 'http://127.0.0.1:8888' // EOS http endpoint
+        chainId: 'a4fe43c897279a677025624555f3835b949f995f87923c97f0392dcff835bfd0',
+    keyProvider: '5KAr88qPT4RMbR8FC4S2zfkjhPRnZktpJGHtTZJuFNeAbFnmNuv', // Your private key
+    httpEndpoint: 'http://127.0.0.1:8888', // EOS http endpoint
+    broadcast: true,
+    sign: true
     }
 }
 
